@@ -32,7 +32,7 @@
 - [x] Geometric Entropy: final PDF and affiliation, alignment/metric explanation, mastery interpretation, paper-backed diagrams, citation, and downloadable presentation.
 - [x] Personal homepage: fourth-year, research sentence, CoRL venue, final paper/arXiv/code links, and naturally proportioned thumbnails.
 - [x] Validate resources, source values, legacy entries, PDF contents, desktop/mobile rendering and gallery interaction; obtain an independent review.
-- [ ] Commit and push each site; verify deployed HTML and PDF hashes.
+- [x] Commit and push each site; verify deployed HTML and PDF hashes.
 
 ## Execution Notes
 
@@ -43,3 +43,4 @@
 - Browser checks at 360, 390, 768 and 1280 pixels find no page-level horizontal overflow or broken images. The qualitative gallery switches both by mouse and keyboard.
 - Independent review identified overgeneralized Geometric Entropy claims; these now distinguish measured settings from the mastery/ambiguity interpretation.
 - Read-only slide audit: the October 31 RoboLineage PPTX retains old table images and differs from the final paper. It is not part of this publication update and remains untouched.
+- Deployed HTML markers pass on all three GitHub Pages sites. Downloaded project PDFs match the source SHA256 hashes; the IROS slide link returns HTTP 200 with the expected 26,083,658-byte length.
